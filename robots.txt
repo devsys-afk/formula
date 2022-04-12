@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://matteodem.github.io/formula-fork/sitemap.xml.gz
+Sitemap: https://devsys-afk.github.io/formula/sitemap.xml.gz
