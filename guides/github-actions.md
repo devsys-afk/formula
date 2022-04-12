@@ -2,6 +2,7 @@
 icon: git-compare
 tags: [guide]
 ---
+
 ![](/static/headers/guides_github-actions.png)
 
 # GitHub Actions
@@ -71,24 +72,22 @@ If the `retype` branch is not available, the GitHub Action will automatically cr
 If the default branch in your repo is `master`, change `- main` to `- master`. If the docs project was within a `docs` branch, change `- main` to `- docs`. The following snippet demonstrates setting the branch to `master`.
 
 ```yml
-  push:
-    branches:
-      - master
+push:
+  branches:
+    - master
 ```
 
 Commit your `retype-action.yml` file and push to your repo.
 
 ### RETYPE_SECRET
 
-If your project requires a Retype License Key, that key can be configured by adding a [`RETYPE_SECRET`](cli.md#retype_secret) secret to your repository and the corresponding `license: {%{${{ secrets.RETYPE_SECRET }}`}%} configuration to your `.github/workflows/retype-action.yml` file.
+If your project requires a Retype License Key, that key can be configured by adding a [`RETYPE_SECRET`](cli.md#retype_secret) secret to your repository and the corresponding `license: EXAMPLE_SECRET` configuration to your `.github/workflows/retype-action.yml` file.
 
-{%{
 ```yml
 - uses: retypeapp/action-build@latest
   with:
-    license: ${{ secrets.RETYPE_SECRET }}
+    license: EXAMPLE_SECRET
 ```
-}%}
 
 A standard `.github/workflows/retype-action.yml` file with a Retype license key would look like the following:
 
@@ -111,7 +110,7 @@ jobs:
 
       - uses: retypeapp/action-build@latest
         with:
-          license: {%{${{ secrets.RETYPE_SECRET }}}%}
+          license: EXAMPLE_SECRET
 
       - uses: retypeapp/action-github-pages@latest
         with:
