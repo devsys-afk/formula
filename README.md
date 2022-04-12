@@ -4,7 +4,7 @@ order: 10000
 icon: home
 ---
 
-# DevSys AFK - Formula
+# Welcome to f o r m u l a
 
 !!!
 
