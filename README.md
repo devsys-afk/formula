@@ -4,7 +4,7 @@ order: 10000
 icon: home
 ---
 
-# Welcome
+# Welcome!
 
 !!!
 
