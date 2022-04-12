@@ -6,4 +6,8 @@ icon: home
 
 # DevSys AFK - Formula
 
-This is a sample page demonstrating page metadata.
+!!!
+
+We are currently working on writing detailed docs for f o r m u l a. The current version of docs is incomplete.
+
+!!!
