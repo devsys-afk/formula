@@ -4,7 +4,7 @@ order: 10000
 icon: home
 ---
 
-# Welcome to f o r m u l a
+# Welcome
 
 !!!
 
