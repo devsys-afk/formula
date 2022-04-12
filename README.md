@@ -8,6 +8,6 @@ icon: home
 
 !!!
 
-We are currently working on writing detailed docs for f o r m u l a. The current version of docs is incomplete.
+We are currently working on writing detailed docs. The current version of docs is incomplete.
 
 !!!
