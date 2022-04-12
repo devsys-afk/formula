@@ -1,4 +1,5 @@
 name: Publish Retype powered website to GitHub Pages
+url: https://devsys-afk.github.io/formula/
 on:
   workflow_dispatch:
   push:
