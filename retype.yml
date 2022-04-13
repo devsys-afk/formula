@@ -2,8 +2,8 @@ input: ./
 output: .retype
 url: https://devsys-afk.github.io/formula/
 branding:
-  title: Formula
-  label: v2.2
+  title: f o r m u l a
+  label: v2.1
 links:
   - text: Getting Started
     link: https://retype.com/guides/getting-started/
