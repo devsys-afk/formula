@@ -2,7 +2,7 @@ input: ./
 output: .retype
 url: https://devsys-afk.github.io/formula/
 branding:
-  title: f o r m u l a
+  title: devsys
   label: v2.1
 links:
   - text: Getting Started
