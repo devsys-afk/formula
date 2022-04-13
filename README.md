@@ -4,6 +4,8 @@ order: 10000
 icon: home
 ---
 
+![](/static/headers/guides_cli.png)
+
 # Welcome!
 
 !!! Work in Progress
